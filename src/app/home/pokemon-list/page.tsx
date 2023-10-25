@@ -36,7 +36,7 @@ export default function PokemonList() {
 
   return (
       <>
-        <input onChange={onFilter}/>
+        <input onChange={onFilter} className="button"/>
           <div className="button">
               <Link href="/home/counter">Contador</Link>
           </div>
